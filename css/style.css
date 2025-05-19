@@ -63,35 +63,7 @@ background-color: #000000;
     flex-direction: column;
     cursor: pointer;
     padding-block: 10px;
-  
 }
-.image img{
-width: 30px;
-}
-
-/* .meal{
-    position: relative;   
-    cursor: pointer;
-}
-.meal .overlay {
-    overflow: hidden;
-    width:100%;
-    height: 100%;
-    background-color:#c509097a;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0;
-    transition: all 0.4s;
-    /* margin-inline: 8px; */
-    /* z-index: 9;
-} */
 
 .meal {
     padding: 0 8px; /* Add padding if needed */
