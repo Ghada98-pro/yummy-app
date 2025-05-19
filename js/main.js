@@ -301,11 +301,11 @@ function displayMealDetail(data) {
                 <div class="ingerdaints mt-3 d-flex flex-wrap gap-2">
                     ${generteingradint(meal)}                     
                 </div>
-                <div class="fs-4">Tags:</div>
+                <div class="fs-4 mt-4">Tags:</div>
                 <div class="tags mt-3 mb-3 d-flex flex-wrap gap-2">
                     ${tagsHtml || '<span>No tags available</span>'}
                 </div>
-                ${meal.strSource ? `<button class="source btn btn-warning"><a href="${meal.strSource}" target="_blank">Source</a></button>` : ''}
+                ${meal.strSource ? `<button class="source btn btn-warning "><a href="${meal.strSource}" target="_blank">Source</a></button>` : ''}
                 ${meal.strYoutube ? `<button class="source btn btn-danger"><a href="${meal.strYoutube}" target="_blank">YouTube</a></button>` : ''}
             </div>
         </div>`;
